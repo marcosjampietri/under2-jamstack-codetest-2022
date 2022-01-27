@@ -31,6 +31,7 @@ const LatestArticles = dynamic(() =>
         (mod) => mod.LatestArticles
     )
 );
+const Form = dynamic(() => import("../components/sections/Form"));
 
 import featuredPartnersJSON from "../content/featured-partners.json";
 
@@ -60,6 +61,7 @@ export default function Home() {
                 <FeaturedBenefits padding="mdTopOnly" />
                 <FeaturedPartners partners={featuredPartnersJSON} />
                 <LatestArticles />
+                <Form />
             </div>
             <GlobalFooter />
         </>
