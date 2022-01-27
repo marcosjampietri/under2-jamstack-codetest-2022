@@ -19,7 +19,7 @@ We've put together a short code exercise so we can better understand your develo
 
 Our site is fast out of the box but there are a couple of quick wins we can grab to speed the page up further.
 
--   [ ] Run a lighthouse test (in a guest tab) and record the results
+-   [x] Run a lighthouse test (in a guest tab) and record the results
 -   [ ] Implement the 2 main oppurtunitues that lighthouse provides
 -   [ ] Run another lighthouse test and record the reult
 -   [ ] Push your progress to your github branch and trigger a build
