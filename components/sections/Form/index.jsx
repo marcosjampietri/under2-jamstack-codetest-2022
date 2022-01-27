@@ -19,26 +19,26 @@ const Subscribe = () => {
             >
                 <Field>
                     <Label>First Name</Label>
-                    <label htmlFor="Fname">
-                        <Input type="text" id="Fname" />
+                    <label htmlFor="firstName">
+                        <Input type="text" id="firstName" />
                     </label>
                 </Field>
                 <Field>
                     <Label>Last Name</Label>
-                    <label htmlFor="Fname">
-                        <Input type="text" id="Fname" />
+                    <label htmlFor="lastName">
+                        <Input type="text" id="lastName" />
                     </label>
                 </Field>
                 <Field>
                     <Label>E-mail</Label>
-                    <label htmlFor="Email">
-                        <Input type="email" id="Email" />
+                    <label htmlFor="email">
+                        <Input type="email" id="email" />
                     </label>
                 </Field>
                 <Field>
                     <Label>Company</Label>
-                    <label htmlFor="Comp">
-                        <Input type="text" id="Comp" />
+                    <label htmlFor="company">
+                        <Input type="text" id="company" />
                     </label>
                 </Field>
 
