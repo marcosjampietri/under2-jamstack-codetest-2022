@@ -1,24 +1,24 @@
 {
-  "name": "under2-senior-nextjs-test",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "hubspot": "^2.3.14",
-    "next": "^12.0.9",
-    "prop-types": "^15.8.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "eslint": "8.6.0",
-    "eslint-config-next": "12.0.7",
-    "postcss-import": "^14.0.2",
-    "tailwindcss": "^3.0.12"
-  }
+    "name": "under2-senior-nextjs-test",
+    "private": true,
+    "scripts": {
+        "dev": "rm -rf .next && next dev",
+        "build": "rm -rf .next && next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "hubspot": "^2.3.14",
+        "next": "^12.0.9",
+        "prop-types": "^15.8.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "eslint": "8.6.0",
+        "eslint-config-next": "12.0.7",
+        "postcss-import": "^14.0.2",
+        "tailwindcss": "^3.0.12"
+    }
 }
