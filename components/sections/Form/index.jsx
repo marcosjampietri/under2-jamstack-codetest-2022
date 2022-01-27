@@ -52,7 +52,8 @@ export default Subscribe;
 
 const Section = styled.section`
     width: 100%;
-    // margin: 0px auto;
+    max-width: 1200px;
+    margin: 0px auto;
     padding: 80px 0px;
     background: hsla(0, 0%, 95%, 1);
 
@@ -97,6 +98,8 @@ const Form = styled.form`
 
 const Field = styled.div`
     margin: 0px auto;
+    width: 50%;
+    min-width: 200px;
 `;
 
 const Input = styled.input`
